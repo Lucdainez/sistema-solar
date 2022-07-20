@@ -1,3 +1,12 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.reactBack {
+  background-image: url(images/background.png);
+}
+
+p, h1, h2 {
+  color: white;
 }
