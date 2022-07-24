@@ -6,6 +6,7 @@
 
 .reactBack {
   background-image: url(images/background.png);
+  height: 130vh;
 }
 
 h1 {
@@ -19,10 +20,58 @@ h2 {
   border: 1px solid white;
   border-radius: 5px;
   max-width: 350px;
-  margin: auto;
+  margin: 30px auto 50px;
   padding: 7px;
+  background-color: rgba(0, 0, 0, 0.52);
 }
 
 p, h1, h2 {
   color: white;
+}
+
+.div-planets {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 220px;
+}
+
+img:hover {
+  width: 260px;
+}
+
+.missions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+
+}
+
+.div-mission-card {
+  border: 1px solid white;
+  width: 180px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.364);
+}
+
+.p-mission-name {
+  border: 1px solid white;
+  padding: 10px;
+  margin: -10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.conteudo {
+  margin-top: 15px;
+}
+
+.h2 {
+  display: block;
 }

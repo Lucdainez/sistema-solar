@@ -7,7 +7,7 @@ import './App.css';
 class App extends React.Component {
   render() {
     return (
-      <div className='reactBack'>
+      <div className="reactBack">
         <Header />
         <SolarSystem />
         <Missions />
